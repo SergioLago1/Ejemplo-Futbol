@@ -43,6 +43,11 @@ public class Futbolista extends Equipo_Futbol{
     public void entrenar(){
       System.out.println("Entrenan os Futbolistas");
     }
+
+    @Override
+    public String toString() {
+        return "Futbolista{" + "dorsal=" + dorsal + ", demarcacion=" + demarcacion + '}';
+    }
 }
 
 
