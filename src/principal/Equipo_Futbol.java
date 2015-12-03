@@ -41,5 +41,10 @@ public class Equipo_Futbol {
   public void viaxar(){
       System.out.println("Viaxa o Equipo de Futbol");
   }
+
+    @Override
+    public String toString() {
+        return "Equipo_Futbol{" + "id=" + id + ", edade=" + edade + ", nome=" + nome + ", apellido=" + apellido + '}';
+    }
   
 }
